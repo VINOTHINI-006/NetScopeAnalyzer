@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NetScope Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+    <h1>🛡 NetScope Analyzer</h1>
+
+    <h2>CodeAlpha Cyber Security Internship</h2>
+
+    <p>Basic Network Sniffer Dashboard</p>
+
+    <h3>Captured Packets</h3>
+
+    <table border="1" style="margin:auto;">
+        <tr>
+            <th>Source IP</th>
+            <th>Destination IP</th>
+            <th>Protocol</th>
+        </tr>
+
+        {% for packet in packets %}
+        <tr>
+            <td>{{ packet.source }}</td>
+            <td>{{ packet.destination }}</td>
+            <td>{{ packet.protocol }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+
+</body>
+</html>
