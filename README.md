@@ -154,7 +154,7 @@ Web Dashboard
 
 GitHub: https://github.com/VINOTHINI-006
 
-LinkedIn: *(Add your LinkedIn profile here)*
+
 
 ---
 
