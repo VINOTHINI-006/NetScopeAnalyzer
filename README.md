@@ -100,7 +100,7 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots
 
-![Home Page](screenshot/p1.png)
+![Screenshot(14)](Screenshot/Screenshot(14).png)
 
 ## 🔄 Workflow
 
